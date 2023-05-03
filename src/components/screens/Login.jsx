@@ -14,7 +14,7 @@ function Login() {
     const loginUser = async (event) => {
         event.preventDefault()
         try {
-            await account.createEmailSession(email, password)
+            await account.createEmailSession(user.email, user.password)
             navigate('/Profile')
         }catch (error) {
             console.log(error)
