@@ -14,7 +14,7 @@ function Signup() {
     // navigate
     const navigate = useNavigate()
 
-    const signupUser = (event) => {
+    const signupUser = async (event) => {
         event.preventDefault()
 
         const promise = account.create(
