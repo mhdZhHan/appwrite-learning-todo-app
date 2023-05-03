@@ -1,9 +1,11 @@
-import './App.css'
 import { Fragment } from 'react'
+import Routes_ from './routes/Routes'
 
 function App() {
     return (
-        <Fragment></Fragment>
+        <Fragment>
+            <Routes_ />
+        </Fragment>
     )
 }
 
