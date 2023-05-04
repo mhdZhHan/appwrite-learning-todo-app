@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 
 // screens
-import { Home, Login, Signup } from '../components/screens'
+import { Profile, Login, Signup } from '../components/screens'
 
 function Routes_() {
     return (
@@ -9,6 +9,7 @@ function Routes_() {
             <Routes>
                 <Route path='/' element={<Login />} />
                 <Route path='/signup' element={<Signup />} />
+                <Route path='/Profile' element={<Profile />} />
             </Routes>
         </BrowserRouter>
     )
